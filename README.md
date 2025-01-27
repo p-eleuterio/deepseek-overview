@@ -2,8 +2,13 @@
 
 DeepSeek is a Python project that interacts with the DeepSeek API to perform various tasks using OpenAI's capabilities.
 
-## Project Structure
-deepseek/ ├── bin/ ├── include/ ├── lib/ │ └── python3.9/ │ └── site-packages/ ├── pyvenv.cfg ├── README.md ├── requirements.txt └── scripts/ └── deepseek-r1.py
+## Overview
+The goal of the project is to easily allow via API make different queries via prompt with the deepseek API.
+In order to achieve this, the user needs to create a user account in deepseek  and then an API key via de deepseek platform.
+[api key generation](https://platform.deepseek.com/api_keys)
+Once the key has been generated, we recommend to save it in a .env file (as shown in this readme).
+The model used here is *deepseek-reasoner*, which is a paid model. We recommend to use this model -since it quite cheap and effcient-- but the open and free models can be used as well. Just need to replace de parameter *model* in the script. More about cost and models specs in the official documentation:
+[documentation](https://api-docs.deepseek.com/guides/reasoning_model)
 
 ## Requirements
 
